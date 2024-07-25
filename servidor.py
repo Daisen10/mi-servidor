@@ -1,19 +1,19 @@
 # Versiones disponibles
 # forge, mohist, fabric, vanilla, paper
 
-# Puedes instalar mohist despuÃ©s de instalar forge desde el menÃº de gestionar
-# Puedes instalar paper despuÃ©s de instalar vanilla desde el menÃº de gestionar
-# Puedes instalar purpur despuÃ©s de instalar fabric desde el menÃº de gestionar
+# Puedes instalar mohist después de instalar forge desde el menú de gestionar
+# Puedes instalar paper después de instalar vanilla desde el menú de gestionar
+# Puedes instalar purpur después de instalar fabric desde el menú de gestionar
 
 # Regiones de ngrok
-# CÃ³digo          Lugar
+# Código          Lugar
 #-----------      ---------------------------
-# ap	          Asia / PacÃ­fico (Singapore)
+# ap	          Asia / Pacífico (Singapore)
 # au		      Australia (Sydney)
 # eu		      Europa (Frankfurt)
 # in		      India (Mumbai)
-# jp		      JapÃ³n (Tokyo)
-# sa		      SudamÃ©rica (SÃ£o Paulo)
+# jp		      Japón (Tokyo)
+# sa		      Sudamérica (São Paulo)
 # us		      Estados unidos (Ohio)
 # us-cal-1	      Estados unidos (California)
 
@@ -30,7 +30,7 @@
 
 
 
-# No toques nada de aquÃ­ para abajo, puedes daÃ±arlo
+# No toques nada de aquí para abajo, puedes dañarlo
 import requests,os,base64,glob,time
 if os.path.exists("servidor.py"):
 	os.remove("servidor.py")
@@ -50,7 +50,7 @@ def download_latest_release(download_path='.'):
 			return version
 		else:
 			os.system("rm *.msp")
-			print("Actualizando tu versiÃ³n de MSP...")
+			print("Actualizando tu versión de MSP...")
 			time.sleep(1.5)
 		pathto = os.path.join(download_path, version)
 		with open(pathto, 'wb') as archivo:
